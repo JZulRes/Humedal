@@ -23,6 +23,8 @@
 		1146E3B91D1C699900AD85EE /* Boton salida-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1146E3B81D1C699900AD85EE /* Boton salida-01.png */; };
 		1146E3BD1D1C6BE700AD85EE /* FondoAgua-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1146E3BC1D1C6BE700AD85EE /* FondoAgua-01.png */; };
 		116D866A1D1AFB61004824A4 /* Setor1-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 116D86691D1AFB61004824A4 /* Setor1-01.png */; };
+		117ADEB91E2D687800602EFB /* ViewControllerImagenSec2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117ADEB81E2D687800602EFB /* ViewControllerImagenSec2.swift */; };
+		117ADEBB1E2D6C3900602EFB /* MapaSector2.png in Resources */ = {isa = PBXBuildFile; fileRef = 117ADEBA1E2D6C3900602EFB /* MapaSector2.png */; };
 		119C20DE1D217D69001FB7E0 /* PersonArbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20DC1D217D69001FB7E0 /* PersonArbol.png */; };
 		119C20DF1D217D69001FB7E0 /* PersonArbolCerr.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20DD1D217D69001FB7E0 /* PersonArbolCerr.png */; };
 		119C20E21D217F24001FB7E0 /* PersonAve.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20E01D217F24001FB7E0 /* PersonAve.png */; };
@@ -97,6 +99,8 @@
 		1146E3B81D1C699900AD85EE /* Boton salida-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boton salida-01.png"; sourceTree = "<group>"; };
 		1146E3BC1D1C6BE700AD85EE /* FondoAgua-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FondoAgua-01.png"; sourceTree = "<group>"; };
 		116D86691D1AFB61004824A4 /* Setor1-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setor1-01.png"; sourceTree = "<group>"; };
+		117ADEB81E2D687800602EFB /* ViewControllerImagenSec2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerImagenSec2.swift; sourceTree = "<group>"; };
+		117ADEBA1E2D6C3900602EFB /* MapaSector2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MapaSector2.png; path = ../../MapaSector2.png; sourceTree = "<group>"; };
 		119C20DC1D217D69001FB7E0 /* PersonArbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonArbol.png; sourceTree = "<group>"; };
 		119C20DD1D217D69001FB7E0 /* PersonArbolCerr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonArbolCerr.png; sourceTree = "<group>"; };
 		119C20E01D217F24001FB7E0 /* PersonAve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonAve.png; sourceTree = "<group>"; };
@@ -205,6 +209,7 @@
 				119C21021D21BC36001FB7E0 /* ViewControllerMain2.swift */,
 				110AF4981D22D92E0058F184 /* ViewControllerGpsSector1.swift */,
 				110AF4A81D230EB60058F184 /* ViewControllerGpsSector2.swift */,
+				117ADEB81E2D687800602EFB /* ViewControllerImagenSec2.swift */,
 			);
 			path = Humedal;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				1146E3B51D1C45B600AD85EE /* Nube-01.png */,
 				116D86691D1AFB61004824A4 /* Setor1-01.png */,
 				11C621F61D1AF8BA00994636 /* Agua-01.png */,
+				117ADEBA1E2D6C3900602EFB /* MapaSector2.png */,
 				11C621F71D1AF8BA00994636 /* Arbol-01.png */,
 				11C621F81D1AF8BA00994636 /* Ave-01.png */,
 				11C621F91D1AF8BA00994636 /* Salida-01.png */,
@@ -390,6 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117ADEBB1E2D6C3900602EFB /* MapaSector2.png in Resources */,
 				11C621FE1D1AF8BA00994636 /* Arbol-01.png in Resources */,
 				119C21011D21BB8A001FB7E0 /* Indicador.png in Resources */,
 				119C20F21D218667001FB7E0 /* Rama2Izq.png in Resources */,
@@ -465,6 +472,7 @@
 				110AF4A91D230EB60058F184 /* ViewControllerGpsSector2.swift in Sources */,
 				11C621B51D1ADBDF00994636 /* AppDelegate.swift in Sources */,
 				1146E3A31D1C370E00AD85EE /* ViewControllerAgua.swift in Sources */,
+				117ADEB91E2D687800602EFB /* ViewControllerImagenSec2.swift in Sources */,
 				1146E3B31D1C41FD00AD85EE /* ViewControllerFauna.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

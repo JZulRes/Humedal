@@ -101,10 +101,11 @@ class ViewControllerMain2: UIViewController {
             BarAguaSec2.image = UIImage(named: "BarraExLarga.png")
             BarArbolSec2.image = UIImage(named: "BarraExLarga.png")
             BarFaunaSec2.image = UIImage(named: "BarraExLarga.png")
-            UIView.animate(withDuration: 3.0, delay:0, options: [.curveEaseIn], animations: {
-                self.BarAguaSec2.frame = CGRect(x: 190 , y: 83, width: 220, height: 26)
-                self.BarArbolSec2.frame = CGRect(x: 190, y: 137, width: 240, height: 26)
-                self.BarFaunaSec2.frame = CGRect(x: 190, y: 193, width: 190, height: 26)
+            UIView.animate(withDuration: 3.0, delay:1, options: [.curveEaseIn], animations: {
+                
+                self.BarAguaSec2.frame = CGRect(x: 190 , y: 83, width: 118, height: 26)
+                self.BarArbolSec2.frame = CGRect(x: 190, y: 137, width: 128, height: 26)
+                self.BarFaunaSec2.frame = CGRect(x: 190, y: 193, width: 103, height: 26)
                 }, completion: nil)
             ButtonRecorridoSec2.setImage(UIImage(named: "BotonRecorrido.png"), for: UIControlState())
             AppearActionButtonSec2 = true

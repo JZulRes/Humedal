@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,8 +27,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FondoInicioBlanco.png" translatesAutoresizingMaskIntoConstraints="NO" id="xpz-Ks-Iyf"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FondoInicioBlanco.png" translatesAutoresizingMaskIntoConstraints="NO" id="xpz-Ks-Iyf">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3a-ZU-a50">
+                                <rect key="frame" x="243" y="275" width="181" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="adH-bk-dPD"/>
                                 </constraints>
@@ -33,6 +39,7 @@
                                 <state key="normal" title="PERSONAJES"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjM-Vi-gcj">
+                                <rect key="frame" x="242" y="320" width="183" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="HPz-PR-poC"/>
                                 </constraints>
@@ -40,6 +47,7 @@
                                 <state key="normal" title="GALERÍA"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wu-Mz-fj0">
+                                <rect key="frame" x="242" y="224" width="183" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="7Ff-pD-OOv"/>
                                 </constraints>
@@ -50,49 +58,55 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bft-vn-JbZ">
+                                <rect key="frame" x="520" y="116" width="96" height="107"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="107" id="GA2-s4-WBh"/>
                                     <constraint firstAttribute="width" constant="96" id="Y6I-cM-cNM"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bg4-2E-6eW">
+                                <rect key="frame" x="455" y="215" width="67" height="79"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="67" id="ZnD-Lj-3Z4"/>
                                     <constraint firstAttribute="height" constant="79" id="cW9-yr-iCO"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rama2Der.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Hm-Xr-3ha">
+                                <rect key="frame" x="439" y="-39" width="192" height="135"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="192" id="ZI3-Kk-s9A"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rama1Der.png" translatesAutoresizingMaskIntoConstraints="NO" id="W6z-h0-tOB">
+                                <rect key="frame" x="500" y="-52" width="195" height="135"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="195" id="ybK-Lp-laI"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Rama3Der.png" translatesAutoresizingMaskIntoConstraints="NO" id="EJH-09-Szr">
-                                <frame key="frameInset" minX="364" minY="-52" width="188" height="135"/>
+                                <rect key="frame" x="364" y="-52" width="188" height="135"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="188" id="QHO-ui-g8s"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rama1Izq.png" translatesAutoresizingMaskIntoConstraints="NO" id="PpL-h0-9W4">
+                                <rect key="frame" x="-54" y="43" width="162" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="162" id="tqc-fy-4nL"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rama2Izq.png" translatesAutoresizingMaskIntoConstraints="NO" id="9cQ-gL-Kaw">
+                                <rect key="frame" x="-48" y="-25" width="265" height="154"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="265" id="oO9-aj-44t"/>
                                     <constraint firstAttribute="height" constant="154" id="orG-Ir-cRm"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Rama3Izq.png" translatesAutoresizingMaskIntoConstraints="NO" id="8bE-ct-6gt">
-                                <frame key="frameInset" minX="66" minY="-59" width="209" height="169"/>
+                                <rect key="frame" x="66" y="-59" width="209" height="169"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eH2-mh-axT">
-                                <frame key="frameInset" minX="47" minY="181" width="170" height="169"/>
+                                <rect key="frame" x="47" y="181" width="170" height="169"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="170" id="SZo-h4-qlg"/>
                                 </constraints>
@@ -154,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="71.5" y="417.5"/>
+            <point key="canvasLocation" x="96" y="452"/>
         </scene>
         <!--View Controller Hojas-->
         <scene sceneID="1mt-4H-Phs">
@@ -165,23 +179,23 @@
                         <viewControllerLayoutGuide type="bottom" id="6ho-jZ-h5P"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="nhD-qH-Sgr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FondoArbol.png" translatesAutoresizingMaskIntoConstraints="NO" id="yXg-9P-hkg">
-                                <frame key="frameInset" minX="-6" width="679" height="375"/>
+                                <rect key="frame" x="-6" y="0.0" width="679" height="375"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plantas-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="ceI-4q-zj0">
-                                <frame key="frameInset" minX="281" minY="172" width="334" height="182"/>
+                                <rect key="frame" x="281" y="172" width="334" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tierra-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="UaT-Aw-Ac8">
-                                <frame key="frameInset" minX="286" minY="184" width="329" height="174"/>
+                                <rect key="frame" x="286" y="184" width="329" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpA-gD-8Gl">
-                                <frame key="frameInset" minX="298" minY="28" width="70" height="27"/>
+                                <rect key="frame" x="298" y="28" width="70" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Boton salida-01.png"/>
                                 <connections>
@@ -199,7 +213,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lb6-jW-RWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1855.5" y="949.5"/>
+            <point key="canvasLocation" x="1751" y="1377"/>
         </scene>
         <!--View Controller Fauna-->
         <scene sceneID="JZh-WF-RPO">
@@ -210,15 +224,15 @@
                         <viewControllerLayoutGuide type="bottom" id="7dF-e0-9gt"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="Q77-Fc-dEt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FondoAves.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZjQ-2t-cGG">
-                                <frame key="frameInset" minX="-3" width="672" height="375"/>
+                                <rect key="frame" x="-3" y="0.0" width="672" height="375"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgm-PO-NrQ">
-                                <frame key="frameInset" minX="302" minY="20" width="70" height="27"/>
+                                <rect key="frame" x="302" y="20" width="70" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Boton salida-01.png"/>
                                 <connections>
@@ -226,11 +240,11 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PersonPato2.png" translatesAutoresizingMaskIntoConstraints="NO" id="rwW-S8-jXZ">
-                                <frame key="frameInset" minX="403" minY="284" width="57" height="39"/>
+                                <rect key="frame" x="403" y="284" width="57" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PersonPato1.png" translatesAutoresizingMaskIntoConstraints="NO" id="qd3-8c-L2a">
-                                <frame key="frameInset" minX="191" minY="316" width="57" height="39"/>
+                                <rect key="frame" x="191" y="316" width="57" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -243,7 +257,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H01-1g-6Xj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1855.5" y="-20.5"/>
+            <point key="canvasLocation" x="1751" y="-410"/>
         </scene>
         <!--View Controller Gps Sector1-->
         <scene sceneID="Pbv-WP-4jU">
@@ -258,11 +272,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nuu-7g-A03">
-                                <frame key="frameInset" width="667" height="375"/>
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzq-gd-S5B">
-                                <frame key="frameInset" minX="576" minY="299" width="87" height="72"/>
+                                <rect key="frame" x="576" y="299" width="87" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="SalidaMapa.png"/>
                                 <connections>
@@ -278,7 +292,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZG-FH-9ob" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="930.5" y="-20.5"/>
+            <point key="canvasLocation" x="870" y="-839"/>
         </scene>
         <!--View Controller Main2-->
         <scene sceneID="4bC-JB-gbF">
@@ -293,7 +307,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTD-4y-KAe">
-                                <frame key="frameInset" minX="20" minY="89" width="73" height="69"/>
+                                <rect key="frame" x="20" y="89" width="73" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotonArbol.png"/>
                                 <connections>
@@ -301,7 +315,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZD-pu-mIZ">
-                                <frame key="frameInset" minX="20" minY="166" width="73" height="69"/>
+                                <rect key="frame" x="20" y="166" width="73" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotonAve.png"/>
                                 <connections>
@@ -309,12 +323,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fS6-7g-J1X">
-                                <frame key="frameInset" minX="72" minY="258" width="345" height="109"/>
+                                <rect key="frame" x="72" y="258" width="345" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Sector3-01.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xP5-VR-HVP">
-                                <frame key="frameInset" minX="411" minY="110" width="229" height="257"/>
+                                <rect key="frame" x="411" y="110" width="229" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Sector2-01.png"/>
                                 <connections>
@@ -322,7 +336,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiM-1h-bbf">
-                                <frame key="frameInset" minX="598" minY="35" width="49" height="91"/>
+                                <rect key="frame" x="598" y="35" width="49" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Setor1-01.png"/>
                                 <connections>
@@ -330,7 +344,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90i-1f-TYr">
-                                <frame key="frameInset" minX="20" minY="12" width="73" height="69"/>
+                                <rect key="frame" x="20" y="12" width="73" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotonAgua.png"/>
                                 <connections>
@@ -338,7 +352,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jos-eL-25P">
-                                <frame key="frameInset" minX="598" minY="309" width="58" height="58"/>
+                                <rect key="frame" x="598" y="309" width="58" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Salida-01.png"/>
                                 <connections>
@@ -346,51 +360,50 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v02-g5-cfs">
-                                <frame key="frameInset" minX="117" minY="16" width="432" height="228"/>
+                                <rect key="frame" x="117" y="16" width="432" height="228"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUG-Pu-b9X">
-                                <frame key="frameInset" minX="399" minY="173" width="122" height="55"/>
+                                <rect key="frame" x="399" y="173" width="122" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="ActionButtonSec1:" destination="tR1-JB-W92" eventType="touchUpInside" id="OpJ-uq-w0e"/>
-                                    <segue destination="oUc-KF-Qpq" kind="show" identifier="GpsSec2" id="7iR-1d-EwF"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YXB-XX-Pjp">
-                                <frame key="frameInset" minX="556" minY="56" width="26" height="25"/>
+                                <rect key="frame" x="556" y="56" width="26" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X6C-t7-yvk">
-                                <frame key="frameInset" minX="480" minY="248" width="26" height="25"/>
+                                <rect key="frame" x="480" y="248" width="26" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GAJ-uA-5Zf">
-                                <frame key="frameInset" minX="248" minY="252" width="26" height="25"/>
+                                <rect key="frame" x="248" y="252" width="26" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PEu-OX-FUo">
-                                <frame key="frameInset" minX="190" minY="85" width="47" height="26"/>
+                                <rect key="frame" x="190" y="85" width="47" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bNA-CW-pE2">
-                                <frame key="frameInset" minX="190" minY="140" width="53" height="26"/>
+                                <rect key="frame" x="190" y="140" width="53" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QKD-9o-CHw">
-                                <frame key="frameInset" minX="190" minY="197" width="60" height="26"/>
+                                <rect key="frame" x="190" y="197" width="60" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n6k-KX-dyJ">
-                                <frame key="frameInset" minX="190" minY="83" width="118" height="26"/>
+                                <rect key="frame" x="190" y="83" width="60" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ss4-Vn-0z5">
-                                <frame key="frameInset" minX="190" minY="137" width="128" height="26"/>
+                                <rect key="frame" x="190" y="137" width="70" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Up0-Cw-SzV">
-                                <frame key="frameInset" minX="190" minY="193" width="103" height="26"/>
+                                <rect key="frame" x="190" y="193" width="80" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -412,6 +425,7 @@
                         <outlet property="IndicadorSector3" destination="GAJ-uA-5Zf" id="Dxp-S5-AGs"/>
                         <outlet property="Popup" destination="v02-g5-cfs" id="6ko-hC-VkF"/>
                         <segue destination="Q5I-3t-XiO" kind="show" identifier="GpsSec1" id="8S1-YP-IMr"/>
+                        <segue destination="VHf-Ep-zgt" kind="show" identifier="GpsSec2" id="fcd-mv-7pt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EPQ-gv-f94" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -431,27 +445,53 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="sPA-L4-xmb">
-                                <frame key="frameInset" width="667" height="375"/>
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezq-bs-K5W">
-                                <frame key="frameInset" minX="578" minY="301" width="87" height="72"/>
+                                <rect key="frame" x="578" y="301" width="87" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="SalidaMapa.png"/>
-                                <connections>
-                                    <segue destination="tR1-JB-W92" kind="show" identifier="" id="wuf-LD-Iw5"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <connections>
-                        <outlet property="MapSector2" destination="sPA-L4-xmb" id="kCr-6z-6tR"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6p4-6N-6p1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="930.5" y="1010.5"/>
+            <point key="canvasLocation" x="155" y="1377"/>
+        </scene>
+        <!--View Controller Imagen Sec2-->
+        <scene sceneID="fRl-vb-MWf">
+            <objects>
+                <viewController id="VHf-Ep-zgt" customClass="ViewControllerImagenSec2" customModule="Humedal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dnB-9V-Aly"/>
+                        <viewControllerLayoutGuide type="bottom" id="HX2-7t-B2D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XWa-Nw-CKA">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKJ-PE-KE7">
+                                <rect key="frame" x="580" y="303" width="87" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="SalidaMapa.png"/>
+                                <connections>
+                                    <segue destination="tR1-JB-W92" kind="show" id="6Ac-aK-oFF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="exitButton" destination="nKJ-PE-KE7" id="Bog-32-o54"/>
+                        <outlet property="view" destination="XWa-Nw-CKA" id="Gy7-Nn-k23"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oRS-r1-ouD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="930" y="1377"/>
         </scene>
         <!--View Controller Agua-->
         <scene sceneID="dEx-Qx-y4H">
@@ -462,15 +502,15 @@
                         <viewControllerLayoutGuide type="bottom" id="SHj-wh-oew"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="m0G-aQ-fVs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FondoAgua-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="RBF-s3-4NQ">
-                                <frame key="frameInset" minX="-5" width="676" height="379"/>
+                                <rect key="frame" x="-5" y="0.0" width="676" height="379"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x26-Cj-ndq">
-                                <frame key="frameInset" minX="303" minY="27" width="70" height="27"/>
+                                <rect key="frame" x="303" y="27" width="70" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Boton salida-01.png"/>
                                 <connections>
@@ -478,11 +518,11 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Nube-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="BuY-oS-h3l">
-                                <frame key="frameInset" minX="230" minY="171" width="106" height="53"/>
+                                <rect key="frame" x="230" y="171" width="106" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Nube-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="gmm-wF-yqh">
-                                <frame key="frameInset" minX="374" minY="50" width="106" height="53"/>
+                                <rect key="frame" x="374" y="50" width="106" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -495,7 +535,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ohQ-gM-mVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1855.5" y="429.5"/>
+            <point key="canvasLocation" x="1751" y="452"/>
         </scene>
     </scenes>
     <resources>
@@ -525,6 +565,6 @@
         <image name="Tierra-01.png" width="525" height="236"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="znd-it-lfA"/>
+        <segue reference="6Ac-aK-oFF"/>
     </inferredMetricsTieBreakers>
 </document>
