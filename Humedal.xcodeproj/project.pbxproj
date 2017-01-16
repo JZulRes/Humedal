@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110AF4991D22D92E0058F184 /* ViewControllerGpsSector1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110AF4981D22D92E0058F184 /* ViewControllerGpsSector1.swift */; };
+		110AF49F1D22F6D00058F184 /* BotonAgua.png in Resources */ = {isa = PBXBuildFile; fileRef = 110AF49A1D22F6D00058F184 /* BotonAgua.png */; };
+		110AF4A01D22F6D00058F184 /* BotonArbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 110AF49B1D22F6D00058F184 /* BotonArbol.png */; };
+		110AF4A11D22F6D00058F184 /* BotonAve.png in Resources */ = {isa = PBXBuildFile; fileRef = 110AF49C1D22F6D00058F184 /* BotonAve.png */; };
+		110AF4A21D22F6D00058F184 /* PopupSector2.png in Resources */ = {isa = PBXBuildFile; fileRef = 110AF49D1D22F6D00058F184 /* PopupSector2.png */; };
+		110AF4A31D22F6D00058F184 /* SalidaMapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 110AF49E1D22F6D00058F184 /* SalidaMapa.png */; };
+		110AF4A51D2301480058F184 /* BarraLarga.png in Resources */ = {isa = PBXBuildFile; fileRef = 110AF4A41D2301480058F184 /* BarraLarga.png */; };
+		110AF4A71D2307570058F184 /* BarraExLarga.png in Resources */ = {isa = PBXBuildFile; fileRef = 110AF4A61D2307570058F184 /* BarraExLarga.png */; };
+		110AF4A91D230EB60058F184 /* ViewControllerGpsSector2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110AF4A81D230EB60058F184 /* ViewControllerGpsSector2.swift */; };
+		1146E3A31D1C370E00AD85EE /* ViewControllerAgua.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146E3A21D1C370E00AD85EE /* ViewControllerAgua.swift */; };
+		1146E3B11D1C409600AD85EE /* ViewControllerHojas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146E3B01D1C409600AD85EE /* ViewControllerHojas.swift */; };
+		1146E3B31D1C41FD00AD85EE /* ViewControllerFauna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146E3B21D1C41FD00AD85EE /* ViewControllerFauna.swift */; };
+		1146E3B71D1C45B600AD85EE /* Nube-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1146E3B51D1C45B600AD85EE /* Nube-01.png */; };
+		1146E3B91D1C699900AD85EE /* Boton salida-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1146E3B81D1C699900AD85EE /* Boton salida-01.png */; };
+		1146E3BD1D1C6BE700AD85EE /* FondoAgua-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1146E3BC1D1C6BE700AD85EE /* FondoAgua-01.png */; };
+		116D866A1D1AFB61004824A4 /* Setor1-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 116D86691D1AFB61004824A4 /* Setor1-01.png */; };
+		119C20DE1D217D69001FB7E0 /* PersonArbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20DC1D217D69001FB7E0 /* PersonArbol.png */; };
+		119C20DF1D217D69001FB7E0 /* PersonArbolCerr.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20DD1D217D69001FB7E0 /* PersonArbolCerr.png */; };
+		119C20E21D217F24001FB7E0 /* PersonAve.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20E01D217F24001FB7E0 /* PersonAve.png */; };
+		119C20E31D217F24001FB7E0 /* PersonAveCerr.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20E11D217F24001FB7E0 /* PersonAveCerr.png */; };
+		119C20E61D218122001FB7E0 /* PersonGota.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20E41D218122001FB7E0 /* PersonGota.png */; };
+		119C20E71D218122001FB7E0 /* PersonGotaCerr.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20E51D218122001FB7E0 /* PersonGotaCerr.png */; };
+		119C20EB1D21833C001FB7E0 /* Rama1Der.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20E81D21833C001FB7E0 /* Rama1Der.png */; };
+		119C20EC1D21833C001FB7E0 /* Rama2Der.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20E91D21833C001FB7E0 /* Rama2Der.png */; };
+		119C20ED1D21833C001FB7E0 /* Rama3Der.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20EA1D21833C001FB7E0 /* Rama3Der.png */; };
+		119C20F11D218667001FB7E0 /* Rama1Izq.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20EE1D218667001FB7E0 /* Rama1Izq.png */; };
+		119C20F21D218667001FB7E0 /* Rama2Izq.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20EF1D218667001FB7E0 /* Rama2Izq.png */; };
+		119C20F31D218667001FB7E0 /* Rama3Izq.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20F01D218667001FB7E0 /* Rama3Izq.png */; };
+		119C20F71D218976001FB7E0 /* FondoAves.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20F41D218976001FB7E0 /* FondoAves.png */; };
+		119C20F81D218976001FB7E0 /* PersonPato1.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20F51D218976001FB7E0 /* PersonPato1.png */; };
+		119C20F91D218976001FB7E0 /* PersonPato2.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20F61D218976001FB7E0 /* PersonPato2.png */; };
+		119C20FD1D21BB59001FB7E0 /* Barra.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20FA1D21BB59001FB7E0 /* Barra.png */; };
+		119C20FE1D21BB59001FB7E0 /* BotonRecorrido.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20FB1D21BB59001FB7E0 /* BotonRecorrido.png */; };
+		119C21011D21BB8A001FB7E0 /* Indicador.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C21001D21BB8A001FB7E0 /* Indicador.png */; };
+		119C21031D21BC36001FB7E0 /* ViewControllerMain2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C21021D21BC36001FB7E0 /* ViewControllerMain2.swift */; };
+		119C21051D21C32A001FB7E0 /* PopupSector1.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C21041D21C32A001FB7E0 /* PopupSector1.png */; };
 		11C621B51D1ADBDF00994636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C621B41D1ADBDF00994636 /* AppDelegate.swift */; };
 		11C621B71D1ADBDF00994636 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C621B61D1ADBDF00994636 /* ViewController.swift */; };
 		11C621BA1D1ADBDF00994636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C621B81D1ADBDF00994636 /* Main.storyboard */; };
@@ -14,6 +50,17 @@
 		11C621BF1D1ADBDF00994636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C621BD1D1ADBDF00994636 /* LaunchScreen.storyboard */; };
 		11C621CA1D1ADBDF00994636 /* HumedalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C621C91D1ADBDF00994636 /* HumedalTests.swift */; };
 		11C621D51D1ADBDF00994636 /* HumedalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C621D41D1ADBDF00994636 /* HumedalUITests.swift */; };
+		11C621E71D1AE5B200994636 /* virgo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C621E61D1AE5B200994636 /* virgo.ttf */; };
+		11C621FD1D1AF8BA00994636 /* Agua-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C621F61D1AF8BA00994636 /* Agua-01.png */; };
+		11C621FE1D1AF8BA00994636 /* Arbol-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C621F71D1AF8BA00994636 /* Arbol-01.png */; };
+		11C621FF1D1AF8BA00994636 /* Ave-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C621F81D1AF8BA00994636 /* Ave-01.png */; };
+		11C622001D1AF8BA00994636 /* Salida-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C621F91D1AF8BA00994636 /* Salida-01.png */; };
+		11C622011D1AF8BA00994636 /* Sector2-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C621FA1D1AF8BA00994636 /* Sector2-01.png */; };
+		11C622021D1AF8BA00994636 /* Sector3-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C621FB1D1AF8BA00994636 /* Sector3-01.png */; };
+		11E56B711D1C77CA00CAAD21 /* FondoArbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E56B701D1C77CA00CAAD21 /* FondoArbol.png */; };
+		11E56B741D1C83E700CAAD21 /* Plantas-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E56B721D1C83E700CAAD21 /* Plantas-01.png */; };
+		11E56B751D1C83E700CAAD21 /* Tierra-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E56B731D1C83E700CAAD21 /* Tierra-01.png */; };
+		11E56B771D1C88A100CAAD21 /* FondoInicioBlanco.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E56B761D1C88A100CAAD21 /* FondoInicioBlanco.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +81,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		110AF4981D22D92E0058F184 /* ViewControllerGpsSector1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerGpsSector1.swift; sourceTree = "<group>"; };
+		110AF49A1D22F6D00058F184 /* BotonAgua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BotonAgua.png; sourceTree = "<group>"; };
+		110AF49B1D22F6D00058F184 /* BotonArbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BotonArbol.png; sourceTree = "<group>"; };
+		110AF49C1D22F6D00058F184 /* BotonAve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BotonAve.png; sourceTree = "<group>"; };
+		110AF49D1D22F6D00058F184 /* PopupSector2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PopupSector2.png; sourceTree = "<group>"; };
+		110AF49E1D22F6D00058F184 /* SalidaMapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SalidaMapa.png; sourceTree = "<group>"; };
+		110AF4A41D2301480058F184 /* BarraLarga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarraLarga.png; sourceTree = "<group>"; };
+		110AF4A61D2307570058F184 /* BarraExLarga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarraExLarga.png; sourceTree = "<group>"; };
+		110AF4A81D230EB60058F184 /* ViewControllerGpsSector2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerGpsSector2.swift; sourceTree = "<group>"; };
+		1146E3A21D1C370E00AD85EE /* ViewControllerAgua.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAgua.swift; sourceTree = "<group>"; };
+		1146E3B01D1C409600AD85EE /* ViewControllerHojas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerHojas.swift; sourceTree = "<group>"; };
+		1146E3B21D1C41FD00AD85EE /* ViewControllerFauna.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFauna.swift; sourceTree = "<group>"; };
+		1146E3B51D1C45B600AD85EE /* Nube-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nube-01.png"; sourceTree = "<group>"; };
+		1146E3B81D1C699900AD85EE /* Boton salida-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boton salida-01.png"; sourceTree = "<group>"; };
+		1146E3BC1D1C6BE700AD85EE /* FondoAgua-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FondoAgua-01.png"; sourceTree = "<group>"; };
+		116D86691D1AFB61004824A4 /* Setor1-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setor1-01.png"; sourceTree = "<group>"; };
+		119C20DC1D217D69001FB7E0 /* PersonArbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonArbol.png; sourceTree = "<group>"; };
+		119C20DD1D217D69001FB7E0 /* PersonArbolCerr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonArbolCerr.png; sourceTree = "<group>"; };
+		119C20E01D217F24001FB7E0 /* PersonAve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonAve.png; sourceTree = "<group>"; };
+		119C20E11D217F24001FB7E0 /* PersonAveCerr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonAveCerr.png; sourceTree = "<group>"; };
+		119C20E41D218122001FB7E0 /* PersonGota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonGota.png; sourceTree = "<group>"; };
+		119C20E51D218122001FB7E0 /* PersonGotaCerr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonGotaCerr.png; sourceTree = "<group>"; };
+		119C20E81D21833C001FB7E0 /* Rama1Der.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rama1Der.png; sourceTree = "<group>"; };
+		119C20E91D21833C001FB7E0 /* Rama2Der.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rama2Der.png; sourceTree = "<group>"; };
+		119C20EA1D21833C001FB7E0 /* Rama3Der.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rama3Der.png; sourceTree = "<group>"; };
+		119C20EE1D218667001FB7E0 /* Rama1Izq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rama1Izq.png; sourceTree = "<group>"; };
+		119C20EF1D218667001FB7E0 /* Rama2Izq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rama2Izq.png; sourceTree = "<group>"; };
+		119C20F01D218667001FB7E0 /* Rama3Izq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rama3Izq.png; sourceTree = "<group>"; };
+		119C20F41D218976001FB7E0 /* FondoAves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FondoAves.png; sourceTree = "<group>"; };
+		119C20F51D218976001FB7E0 /* PersonPato1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonPato1.png; sourceTree = "<group>"; };
+		119C20F61D218976001FB7E0 /* PersonPato2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonPato2.png; sourceTree = "<group>"; };
+		119C20FA1D21BB59001FB7E0 /* Barra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barra.png; sourceTree = "<group>"; };
+		119C20FB1D21BB59001FB7E0 /* BotonRecorrido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BotonRecorrido.png; sourceTree = "<group>"; };
+		119C21001D21BB8A001FB7E0 /* Indicador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indicador.png; sourceTree = "<group>"; };
+		119C21021D21BC36001FB7E0 /* ViewControllerMain2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMain2.swift; sourceTree = "<group>"; };
+		119C21041D21C32A001FB7E0 /* PopupSector1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PopupSector1.png; sourceTree = "<group>"; };
 		11C621B11D1ADBDF00994636 /* Humedal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humedal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C621B41D1ADBDF00994636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11C621B61D1ADBDF00994636 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +130,17 @@
 		11C621D01D1ADBDF00994636 /* HumedalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumedalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C621D41D1ADBDF00994636 /* HumedalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumedalUITests.swift; sourceTree = "<group>"; };
 		11C621D61D1ADBDF00994636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C621E61D1AE5B200994636 /* virgo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = virgo.ttf; sourceTree = "<group>"; };
+		11C621F61D1AF8BA00994636 /* Agua-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Agua-01.png"; sourceTree = "<group>"; };
+		11C621F71D1AF8BA00994636 /* Arbol-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arbol-01.png"; sourceTree = "<group>"; };
+		11C621F81D1AF8BA00994636 /* Ave-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ave-01.png"; sourceTree = "<group>"; };
+		11C621F91D1AF8BA00994636 /* Salida-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Salida-01.png"; sourceTree = "<group>"; };
+		11C621FA1D1AF8BA00994636 /* Sector2-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sector2-01.png"; sourceTree = "<group>"; };
+		11C621FB1D1AF8BA00994636 /* Sector3-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sector3-01.png"; sourceTree = "<group>"; };
+		11E56B701D1C77CA00CAAD21 /* FondoArbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FondoArbol.png; sourceTree = "<group>"; };
+		11E56B721D1C83E700CAAD21 /* Plantas-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plantas-01.png"; sourceTree = "<group>"; };
+		11E56B731D1C83E700CAAD21 /* Tierra-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tierra-01.png"; sourceTree = "<group>"; };
+		11E56B761D1C88A100CAAD21 /* FondoInicioBlanco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FondoInicioBlanco.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +171,8 @@
 		11C621A81D1ADBDF00994636 = {
 			isa = PBXGroup;
 			children = (
+				11C621E51D1AE5A100994636 /* Font */,
+				11C621E21D1AE09200994636 /* Image-Icons */,
 				11C621B31D1ADBDF00994636 /* Humedal */,
 				11C621C81D1ADBDF00994636 /* HumedalTests */,
 				11C621D31D1ADBDF00994636 /* HumedalUITests */,
@@ -103,6 +199,12 @@
 				11C621BB1D1ADBDF00994636 /* Assets.xcassets */,
 				11C621BD1D1ADBDF00994636 /* LaunchScreen.storyboard */,
 				11C621C01D1ADBDF00994636 /* Info.plist */,
+				1146E3A21D1C370E00AD85EE /* ViewControllerAgua.swift */,
+				1146E3B01D1C409600AD85EE /* ViewControllerHojas.swift */,
+				1146E3B21D1C41FD00AD85EE /* ViewControllerFauna.swift */,
+				119C21021D21BC36001FB7E0 /* ViewControllerMain2.swift */,
+				110AF4981D22D92E0058F184 /* ViewControllerGpsSector1.swift */,
+				110AF4A81D230EB60058F184 /* ViewControllerGpsSector2.swift */,
 			);
 			path = Humedal;
 			sourceTree = "<group>";
@@ -123,6 +225,61 @@
 				11C621D61D1ADBDF00994636 /* Info.plist */,
 			);
 			path = HumedalUITests;
+			sourceTree = "<group>";
+		};
+		11C621E21D1AE09200994636 /* Image-Icons */ = {
+			isa = PBXGroup;
+			children = (
+				110AF4A61D2307570058F184 /* BarraExLarga.png */,
+				110AF4A41D2301480058F184 /* BarraLarga.png */,
+				110AF49A1D22F6D00058F184 /* BotonAgua.png */,
+				110AF49B1D22F6D00058F184 /* BotonArbol.png */,
+				110AF49C1D22F6D00058F184 /* BotonAve.png */,
+				110AF49D1D22F6D00058F184 /* PopupSector2.png */,
+				110AF49E1D22F6D00058F184 /* SalidaMapa.png */,
+				119C21041D21C32A001FB7E0 /* PopupSector1.png */,
+				119C21001D21BB8A001FB7E0 /* Indicador.png */,
+				119C20FA1D21BB59001FB7E0 /* Barra.png */,
+				119C20FB1D21BB59001FB7E0 /* BotonRecorrido.png */,
+				119C20F41D218976001FB7E0 /* FondoAves.png */,
+				119C20F51D218976001FB7E0 /* PersonPato1.png */,
+				119C20F61D218976001FB7E0 /* PersonPato2.png */,
+				119C20EE1D218667001FB7E0 /* Rama1Izq.png */,
+				119C20EF1D218667001FB7E0 /* Rama2Izq.png */,
+				119C20F01D218667001FB7E0 /* Rama3Izq.png */,
+				119C20E81D21833C001FB7E0 /* Rama1Der.png */,
+				119C20E91D21833C001FB7E0 /* Rama2Der.png */,
+				119C20EA1D21833C001FB7E0 /* Rama3Der.png */,
+				119C20E41D218122001FB7E0 /* PersonGota.png */,
+				119C20E51D218122001FB7E0 /* PersonGotaCerr.png */,
+				119C20E01D217F24001FB7E0 /* PersonAve.png */,
+				119C20E11D217F24001FB7E0 /* PersonAveCerr.png */,
+				119C20DC1D217D69001FB7E0 /* PersonArbol.png */,
+				119C20DD1D217D69001FB7E0 /* PersonArbolCerr.png */,
+				11E56B761D1C88A100CAAD21 /* FondoInicioBlanco.png */,
+				11E56B721D1C83E700CAAD21 /* Plantas-01.png */,
+				11E56B731D1C83E700CAAD21 /* Tierra-01.png */,
+				11E56B701D1C77CA00CAAD21 /* FondoArbol.png */,
+				1146E3BC1D1C6BE700AD85EE /* FondoAgua-01.png */,
+				1146E3B81D1C699900AD85EE /* Boton salida-01.png */,
+				1146E3B51D1C45B600AD85EE /* Nube-01.png */,
+				116D86691D1AFB61004824A4 /* Setor1-01.png */,
+				11C621F61D1AF8BA00994636 /* Agua-01.png */,
+				11C621F71D1AF8BA00994636 /* Arbol-01.png */,
+				11C621F81D1AF8BA00994636 /* Ave-01.png */,
+				11C621F91D1AF8BA00994636 /* Salida-01.png */,
+				11C621FA1D1AF8BA00994636 /* Sector2-01.png */,
+				11C621FB1D1AF8BA00994636 /* Sector3-01.png */,
+			);
+			name = "Image-Icons";
+			sourceTree = "<group>";
+		};
+		11C621E51D1AE5A100994636 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				11C621E61D1AE5B200994636 /* virgo.ttf */,
+			);
+			name = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,13 +350,17 @@
 				TargetAttributes = {
 					11C621B01D1ADBDF00994636 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VH2L3985TE;
+						LastSwiftMigration = 0820;
 					};
 					11C621C41D1ADBDF00994636 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 11C621B01D1ADBDF00994636;
 					};
 					11C621CF1D1ADBDF00994636 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 11C621B01D1ADBDF00994636;
 					};
 				};
@@ -229,9 +390,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C621FE1D1AF8BA00994636 /* Arbol-01.png in Resources */,
+				119C21011D21BB8A001FB7E0 /* Indicador.png in Resources */,
+				119C20F21D218667001FB7E0 /* Rama2Izq.png in Resources */,
+				11C621FD1D1AF8BA00994636 /* Agua-01.png in Resources */,
+				110AF4A01D22F6D00058F184 /* BotonArbol.png in Resources */,
+				11C622001D1AF8BA00994636 /* Salida-01.png in Resources */,
+				119C20E31D217F24001FB7E0 /* PersonAveCerr.png in Resources */,
+				110AF49F1D22F6D00058F184 /* BotonAgua.png in Resources */,
 				11C621BF1D1ADBDF00994636 /* LaunchScreen.storyboard in Resources */,
 				11C621BC1D1ADBDF00994636 /* Assets.xcassets in Resources */,
+				119C20DE1D217D69001FB7E0 /* PersonArbol.png in Resources */,
+				11E56B771D1C88A100CAAD21 /* FondoInicioBlanco.png in Resources */,
+				110AF4A21D22F6D00058F184 /* PopupSector2.png in Resources */,
+				11C622021D1AF8BA00994636 /* Sector3-01.png in Resources */,
+				11C622011D1AF8BA00994636 /* Sector2-01.png in Resources */,
+				119C20EB1D21833C001FB7E0 /* Rama1Der.png in Resources */,
+				119C21051D21C32A001FB7E0 /* PopupSector1.png in Resources */,
+				11E56B751D1C83E700CAAD21 /* Tierra-01.png in Resources */,
+				119C20E71D218122001FB7E0 /* PersonGotaCerr.png in Resources */,
+				119C20F11D218667001FB7E0 /* Rama1Izq.png in Resources */,
+				119C20F31D218667001FB7E0 /* Rama3Izq.png in Resources */,
+				119C20F71D218976001FB7E0 /* FondoAves.png in Resources */,
+				110AF4A11D22F6D00058F184 /* BotonAve.png in Resources */,
+				1146E3BD1D1C6BE700AD85EE /* FondoAgua-01.png in Resources */,
+				116D866A1D1AFB61004824A4 /* Setor1-01.png in Resources */,
+				1146E3B91D1C699900AD85EE /* Boton salida-01.png in Resources */,
 				11C621BA1D1ADBDF00994636 /* Main.storyboard in Resources */,
+				119C20EC1D21833C001FB7E0 /* Rama2Der.png in Resources */,
+				119C20ED1D21833C001FB7E0 /* Rama3Der.png in Resources */,
+				119C20DF1D217D69001FB7E0 /* PersonArbolCerr.png in Resources */,
+				110AF4A31D22F6D00058F184 /* SalidaMapa.png in Resources */,
+				119C20FD1D21BB59001FB7E0 /* Barra.png in Resources */,
+				1146E3B71D1C45B600AD85EE /* Nube-01.png in Resources */,
+				11C621E71D1AE5B200994636 /* virgo.ttf in Resources */,
+				119C20E61D218122001FB7E0 /* PersonGota.png in Resources */,
+				119C20F91D218976001FB7E0 /* PersonPato2.png in Resources */,
+				11E56B711D1C77CA00CAAD21 /* FondoArbol.png in Resources */,
+				11C621FF1D1AF8BA00994636 /* Ave-01.png in Resources */,
+				119C20FE1D21BB59001FB7E0 /* BotonRecorrido.png in Resources */,
+				11E56B741D1C83E700CAAD21 /* Plantas-01.png in Resources */,
+				119C20F81D218976001FB7E0 /* PersonPato1.png in Resources */,
+				119C20E21D217F24001FB7E0 /* PersonAve.png in Resources */,
+				110AF4A51D2301480058F184 /* BarraLarga.png in Resources */,
+				110AF4A71D2307570058F184 /* BarraExLarga.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +458,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119C21031D21BC36001FB7E0 /* ViewControllerMain2.swift in Sources */,
+				110AF4991D22D92E0058F184 /* ViewControllerGpsSector1.swift in Sources */,
+				1146E3B11D1C409600AD85EE /* ViewControllerHojas.swift in Sources */,
 				11C621B71D1ADBDF00994636 /* ViewController.swift in Sources */,
+				110AF4A91D230EB60058F184 /* ViewControllerGpsSector2.swift in Sources */,
 				11C621B51D1ADBDF00994636 /* AppDelegate.swift in Sources */,
+				1146E3A31D1C370E00AD85EE /* ViewControllerAgua.swift in Sources */,
+				1146E3B31D1C41FD00AD85EE /* ViewControllerFauna.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +609,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Humedal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JefStudios.Humedal;
+				PRODUCT_BUNDLE_IDENTIFIER = JefStudio.Humedal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,10 +625,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Humedal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JefStudios.Humedal;
+				PRODUCT_BUNDLE_IDENTIFIER = JefStudio.Humedal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -427,6 +645,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JefStudios.HumedalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Humedal.app/Humedal";
 			};
 			name = Debug;
@@ -439,6 +658,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JefStudios.HumedalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Humedal.app/Humedal";
 			};
 			name = Release;
@@ -450,6 +670,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JefStudios.HumedalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Humedal;
 			};
 			name = Debug;
@@ -461,6 +682,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JefStudios.HumedalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Humedal;
 			};
 			name = Release;
@@ -484,6 +706,7 @@
 				11C621DB1D1ADBDF00994636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11C621DC1D1ADBDF00994636 /* Build configuration list for PBXNativeTarget "HumedalTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +715,7 @@
 				11C621DE1D1ADBDF00994636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11C621DF1D1ADBDF00994636 /* Build configuration list for PBXNativeTarget "HumedalUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +724,7 @@
 				11C621E11D1ADBDF00994636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
