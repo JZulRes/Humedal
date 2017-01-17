@@ -20,7 +20,7 @@ class ViewControllerImagenSec2: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageView = UIImageView(image: UIImage(named: "MapaSector2.png"))
+        imageView = UIImageView(image: UIImage(named: "MapaSectorII.png"))
         scrollView = UIScrollView(frame: view.bounds)
         scrollView.backgroundColor = UIColor.black
         scrollView.contentSize = imageView.bounds.size

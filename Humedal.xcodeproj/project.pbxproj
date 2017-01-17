@@ -24,7 +24,6 @@
 		1146E3BD1D1C6BE700AD85EE /* FondoAgua-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1146E3BC1D1C6BE700AD85EE /* FondoAgua-01.png */; };
 		116D866A1D1AFB61004824A4 /* Setor1-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 116D86691D1AFB61004824A4 /* Setor1-01.png */; };
 		117ADEB91E2D687800602EFB /* ViewControllerImagenSec2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117ADEB81E2D687800602EFB /* ViewControllerImagenSec2.swift */; };
-		117ADEBB1E2D6C3900602EFB /* MapaSector2.png in Resources */ = {isa = PBXBuildFile; fileRef = 117ADEBA1E2D6C3900602EFB /* MapaSector2.png */; };
 		119C20DE1D217D69001FB7E0 /* PersonArbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20DC1D217D69001FB7E0 /* PersonArbol.png */; };
 		119C20DF1D217D69001FB7E0 /* PersonArbolCerr.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20DD1D217D69001FB7E0 /* PersonArbolCerr.png */; };
 		119C20E21D217F24001FB7E0 /* PersonAve.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C20E01D217F24001FB7E0 /* PersonAve.png */; };
@@ -45,6 +44,8 @@
 		119C21011D21BB8A001FB7E0 /* Indicador.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C21001D21BB8A001FB7E0 /* Indicador.png */; };
 		119C21031D21BC36001FB7E0 /* ViewControllerMain2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C21021D21BC36001FB7E0 /* ViewControllerMain2.swift */; };
 		119C21051D21C32A001FB7E0 /* PopupSector1.png in Resources */ = {isa = PBXBuildFile; fileRef = 119C21041D21C32A001FB7E0 /* PopupSector1.png */; };
+		11AE4CCA1E2ECEB40006ED69 /* MapaSectorII.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AE4CC91E2ECEB40006ED69 /* MapaSectorII.png */; };
+		11AE4CCC1E2ECF960006ED69 /* PopupSector3.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AE4CCB1E2ECF960006ED69 /* PopupSector3.png */; };
 		11C621B51D1ADBDF00994636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C621B41D1ADBDF00994636 /* AppDelegate.swift */; };
 		11C621B71D1ADBDF00994636 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C621B61D1ADBDF00994636 /* ViewController.swift */; };
 		11C621BA1D1ADBDF00994636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C621B81D1ADBDF00994636 /* Main.storyboard */; };
@@ -100,7 +101,6 @@
 		1146E3BC1D1C6BE700AD85EE /* FondoAgua-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FondoAgua-01.png"; sourceTree = "<group>"; };
 		116D86691D1AFB61004824A4 /* Setor1-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setor1-01.png"; sourceTree = "<group>"; };
 		117ADEB81E2D687800602EFB /* ViewControllerImagenSec2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerImagenSec2.swift; sourceTree = "<group>"; };
-		117ADEBA1E2D6C3900602EFB /* MapaSector2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MapaSector2.png; path = ../../MapaSector2.png; sourceTree = "<group>"; };
 		119C20DC1D217D69001FB7E0 /* PersonArbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonArbol.png; sourceTree = "<group>"; };
 		119C20DD1D217D69001FB7E0 /* PersonArbolCerr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonArbolCerr.png; sourceTree = "<group>"; };
 		119C20E01D217F24001FB7E0 /* PersonAve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonAve.png; sourceTree = "<group>"; };
@@ -121,6 +121,8 @@
 		119C21001D21BB8A001FB7E0 /* Indicador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indicador.png; sourceTree = "<group>"; };
 		119C21021D21BC36001FB7E0 /* ViewControllerMain2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMain2.swift; sourceTree = "<group>"; };
 		119C21041D21C32A001FB7E0 /* PopupSector1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PopupSector1.png; sourceTree = "<group>"; };
+		11AE4CC91E2ECEB40006ED69 /* MapaSectorII.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapaSectorII.png; sourceTree = "<group>"; };
+		11AE4CCB1E2ECF960006ED69 /* PopupSector3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PopupSector3.png; sourceTree = "<group>"; };
 		11C621B11D1ADBDF00994636 /* Humedal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humedal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C621B41D1ADBDF00994636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11C621B61D1ADBDF00994636 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -241,6 +243,8 @@
 				110AF49B1D22F6D00058F184 /* BotonArbol.png */,
 				110AF49C1D22F6D00058F184 /* BotonAve.png */,
 				110AF49D1D22F6D00058F184 /* PopupSector2.png */,
+				11AE4CCB1E2ECF960006ED69 /* PopupSector3.png */,
+				11AE4CC91E2ECEB40006ED69 /* MapaSectorII.png */,
 				110AF49E1D22F6D00058F184 /* SalidaMapa.png */,
 				119C21041D21C32A001FB7E0 /* PopupSector1.png */,
 				119C21001D21BB8A001FB7E0 /* Indicador.png */,
@@ -270,7 +274,6 @@
 				1146E3B51D1C45B600AD85EE /* Nube-01.png */,
 				116D86691D1AFB61004824A4 /* Setor1-01.png */,
 				11C621F61D1AF8BA00994636 /* Agua-01.png */,
-				117ADEBA1E2D6C3900602EFB /* MapaSector2.png */,
 				11C621F71D1AF8BA00994636 /* Arbol-01.png */,
 				11C621F81D1AF8BA00994636 /* Ave-01.png */,
 				11C621F91D1AF8BA00994636 /* Salida-01.png */,
@@ -396,10 +399,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				117ADEBB1E2D6C3900602EFB /* MapaSector2.png in Resources */,
 				11C621FE1D1AF8BA00994636 /* Arbol-01.png in Resources */,
 				119C21011D21BB8A001FB7E0 /* Indicador.png in Resources */,
 				119C20F21D218667001FB7E0 /* Rama2Izq.png in Resources */,
+				11AE4CCA1E2ECEB40006ED69 /* MapaSectorII.png in Resources */,
 				11C621FD1D1AF8BA00994636 /* Agua-01.png in Resources */,
 				110AF4A01D22F6D00058F184 /* BotonArbol.png in Resources */,
 				11C622001D1AF8BA00994636 /* Salida-01.png in Resources */,
@@ -436,6 +439,7 @@
 				11E56B711D1C77CA00CAAD21 /* FondoArbol.png in Resources */,
 				11C621FF1D1AF8BA00994636 /* Ave-01.png in Resources */,
 				119C20FE1D21BB59001FB7E0 /* BotonRecorrido.png in Resources */,
+				11AE4CCC1E2ECF960006ED69 /* PopupSector3.png in Resources */,
 				11E56B741D1C83E700CAAD21 /* Plantas-01.png in Resources */,
 				119C20F81D218976001FB7E0 /* PersonPato1.png in Resources */,
 				119C20E21D217F24001FB7E0 /* PersonAve.png in Resources */,

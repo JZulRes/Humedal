@@ -21,7 +21,7 @@ class ViewControllerMain2: UIViewController {
     @IBOutlet weak var BarFauna: UIImageView!
     
     @IBOutlet weak var ButtonRecorridoSec1: UIButton!
-    
+    @IBOutlet weak var ButtonRecorridoSec3: UIButton!
     @IBOutlet weak var ButtonRecorridoSec2: UIButton!
     
     @IBOutlet weak var BarAguaSec2: UIImageView!
@@ -50,6 +50,10 @@ class ViewControllerMain2: UIViewController {
         BarAguaSec2.image = nil
         BarArbolSec2.image = nil
         BarFaunaSec2.image = nil
+        IndicadorSector2.image = nil
+        IndicadorSector3.image = nil
+        AppearActionButtonSec2 = false
+        AppearActionButtonSec3 = false
         if(Popup.image == nil){
             Popup.image = UIImage(named: "PopupSector1.png")
             IndicadorSector1.image = UIImage(named: "Indicador.png")
@@ -84,9 +88,11 @@ class ViewControllerMain2: UIViewController {
         }
         if(AppearActionButtonSec2 == true){
             self.performSegue(withIdentifier: "GpsSec2", sender: nil)
-            
-        
         }
+        if(AppearActionButtonSec3 == true){
+            //self.performSegue(withIdentifier: "GpsSec2", sender: nil)
+        }
+    
     }
     
     var AppearActionButtonSec2 = false
@@ -94,6 +100,10 @@ class ViewControllerMain2: UIViewController {
         BarAgua.image = nil
         BarArbol.image = nil
         BarFauna.image = nil
+        IndicadorSector1.image = nil
+        IndicadorSector3.image = nil
+        AppearActionButtonSec1 = false
+        AppearActionButtonSec3 = false
         if(Popup.image == nil){
             Popup.image = UIImage(named: "PopupSector2.png")
             IndicadorSector2.image = UIImage(named: "Indicador.png")
@@ -101,7 +111,7 @@ class ViewControllerMain2: UIViewController {
             BarAguaSec2.image = UIImage(named: "BarraExLarga.png")
             BarArbolSec2.image = UIImage(named: "BarraExLarga.png")
             BarFaunaSec2.image = UIImage(named: "BarraExLarga.png")
-            UIView.animate(withDuration: 3.0, delay:1, options: [.curveEaseIn], animations: {
+            UIView.animate(withDuration: 3.0, delay:0, options: [.curveEaseIn], animations: {
                 
                 self.BarAguaSec2.frame = CGRect(x: 190 , y: 83, width: 118, height: 26)
                 self.BarArbolSec2.frame = CGRect(x: 190, y: 137, width: 128, height: 26)
@@ -122,9 +132,46 @@ class ViewControllerMain2: UIViewController {
             
         }
     }
+    var AppearActionButtonSec3 = false
+    @IBAction func Sector3(_ sender: Any) {
+        BarAgua.image = nil
+        BarArbol.image = nil
+        BarFauna.image = nil
+        BarAguaSec2.image = nil
+        BarArbolSec2.image = nil
+        BarFaunaSec2.image = nil
+        IndicadorSector1.image = nil
+        IndicadorSector2.image = nil
+        IndicadorSector3.image = nil
+        AppearActionButtonSec1 = false
+        AppearActionButtonSec2 = false
+        if(Popup.image == nil){
+            Popup.image = UIImage(named: "PopupSector3.png")
+            IndicadorSector3.image = UIImage(named: "Indicador.png")
+            BarAgua.image = UIImage(named: "BarraExLarga.png")
+            BarArbol.image = UIImage(named: "BarraExLarga")
+            BarFauna.image = UIImage(named: "BarraExLarga")
+            UIView.animate(withDuration: 3.0, delay:0, options: [.curveEaseIn], animations: {
+                
+                self.BarAgua.frame = CGRect(x: 183, y: 84, width: 120, height: 26)
+                self.BarArbol.frame = CGRect(x: 183, y: 138, width: 130, height: 26)
+                self.BarFauna.frame = CGRect(x: 183, y: 197.5, width: 103, height: 26)
+            }, completion: nil)
+            ButtonRecorridoSec3.setImage(UIImage(named: "BotonRecorrido.png"), for: UIControlState())
+            AppearActionButtonSec3 = true
+        
+        }else{
+            Popup.image = nil
+            IndicadorSector2.image = nil
+            BarAgua.image = nil
+            BarArbol.image = nil
+            BarFauna.image = nil
+            ButtonRecorridoSec3.setImage(UIImage(contentsOfFile: ""), for: UIControlState())
+            AppearActionButtonSec3 = false
+        }
+    }
     
-    
-    
+   
     
     
 

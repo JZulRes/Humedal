@@ -326,6 +326,9 @@
                                 <rect key="frame" x="72" y="258" width="345" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Sector3-01.png"/>
+                                <connections>
+                                    <action selector="Sector3:" destination="tR1-JB-W92" eventType="touchUpInside" id="fvX-Li-PHT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xP5-VR-HVP">
                                 <rect key="frame" x="411" y="110" width="229" height="257"/>
@@ -420,6 +423,7 @@
                         <outlet property="BarFaunaSec2" destination="Up0-Cw-SzV" id="sYI-vu-PU1"/>
                         <outlet property="ButtonRecorridoSec1" destination="bUG-Pu-b9X" id="9EC-Iv-umH"/>
                         <outlet property="ButtonRecorridoSec2" destination="bUG-Pu-b9X" id="Pae-FB-SMR"/>
+                        <outlet property="ButtonRecorridoSec3" destination="bUG-Pu-b9X" id="zYZ-TB-GPD"/>
                         <outlet property="IndicadorSector1" destination="YXB-XX-Pjp" id="l7f-tD-vEO"/>
                         <outlet property="IndicadorSector2" destination="X6C-t7-yvk" id="vhr-UL-IUU"/>
                         <outlet property="IndicadorSector3" destination="GAJ-uA-5Zf" id="Dxp-S5-AGs"/>
